@@ -18,7 +18,8 @@ Feel free to make whatever assumptions are necessary to complete this challenge.
 
 Good luck!
 
-
+### Don't do it the way I did even though it is valid because I made assumptions which I stated.
+First you can't change the type of the JSON objects with in the results.  It should be stated that is a requirement because while it is still valid JSON to swap out the element types dynamically i.e. the `chars` field can be a string or an array of `string` as well as if you need to parse you would fallback to the original type of in this case `object`.  Don't do that because their type checking reader is dumb and doesn't do infererence on types and you aren't allowed to change it because it would blow up.  Once again it could be easily stated you can not change the type format of the data to a different format.  Learn that this phrase `Feel free to make whatever assumptions are necessary to complete this challenge. Please share and explain your assumptions when submitting your results.` is **qualified** and moving outside of the implied expectations is not considered valid.
 
 ### My approach
 
